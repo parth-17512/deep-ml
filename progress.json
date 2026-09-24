@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T19:23:36.353Z",
+  "generated_at": "2026-09-24T19:37:27.225Z",
   "items": {
     "problem:1058": {
       "kind": "problem",
@@ -13,6 +13,19 @@
       "last_pushed_at": "2026-09-24T19:23:32.515Z",
       "language": "python",
       "lines": 25
+    },
+    "problem:16": {
+      "kind": "problem",
+      "id": "16",
+      "title": "Feature Scaling Implementation",
+      "difficulty": "easy",
+      "category": "Machine Learning",
+      "url": "https://www.deep-ml.com/problems/16",
+      "path": "problems/0016-feature-scaling-implementation",
+      "first_solved_at": "2026-09-24T19:37:26.474Z",
+      "last_pushed_at": "2026-09-24T19:37:26.474Z",
+      "language": "python",
+      "lines": 18
     }
   }
 }
