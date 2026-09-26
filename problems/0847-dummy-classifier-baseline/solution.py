@@ -67,4 +67,3 @@ def dummy_classifier(y_train, n_test, strategy, constant=None):
             "strategy must be one of: "
             "'most_frequent', 'constant', 'uniform', 'stratified'"
         )
-    pass
