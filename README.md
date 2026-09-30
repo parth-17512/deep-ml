@@ -2,7 +2,7 @@
 
 My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solution here was written by hand.
 
-**13** solved · 13 problems · 0 labs · 0 math
+**14** solved · 13 problems · 0 labs · 1 math
 
 ![Coverage](./coverage.svg)
 
@@ -25,6 +25,12 @@ My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solu
 | [Dummy Classifier Baseline](https://www.deep-ml.com/problems/847) | medium | 2026-09-26 | [solution](problems/0847-dummy-classifier-baseline) |
 | [Dummy Regressor Baseline](https://www.deep-ml.com/problems/848) | medium | 2026-09-26 | [solution](problems/0848-dummy-regressor-baseline) |
 | [StandardScaler Fit and Transform](https://www.deep-ml.com/problems/842) | medium | 2026-09-24 | [solution](problems/0842-standardscaler-fit-and-transform) |
+
+## Math
+
+| | Difficulty | Solved | |
+| --- | --- | --- | --- |
+| [Vector Operations](https://www.deep-ml.com/math-problems/7) | easy | 2026-09-30 | [solution](math/0007-vector-operations) |
 
 ---
 
