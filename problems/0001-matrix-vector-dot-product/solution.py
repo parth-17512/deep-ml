@@ -6,9 +6,10 @@ def matrix_dot_vector(a: list[list[int|float]], b: list[int|float]) -> list[int|
 		return -1
 	result = []
 	for i in range(len(a)):
-		total = 0
+		total = 0 
 		for j in range(cols):
 			total += a[i][j] * b[j]
 		result.append(total)
 	return result
+
 	pass
