@@ -12,12 +12,11 @@ def transpose_matrix(a: list[list[int|float]]) -> list[list[int|float]]:
     rows = len(a)
     cols = len(a[0])
     transpose = []
-
+    
     for j in range(cols):
-        row = [] #everytime we start processing a column we create a new row.
+        row = []
         for i in range(rows):
             row.append(a[i][j])
         transpose.append(row)
     return transpose
-
     pass
