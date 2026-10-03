@@ -12,16 +12,14 @@ def quotient_rule_derivative(g_coeffs: list, h_coeffs: list, x: float) -> float:
     Returns:
         The derivative value f'(x)
     """
-    g = np.poly1d(g_coeffs)
-    h = np.poly1d(h_coeffs)
+    g= np.poly1d(g_coeffs)
+    h= np.poly1d(h_coeffs)
 
-    g_x = g(x)
+    g_x = g(x) 
     h_x = h(x)
 
-    g_prime_x = np.polyder(g)(x)
-    h_prime_x = np.polyder(h)(x)
+    g_prime_x = np.polyder(g)(x) #g'(x)
+    h_prime_x = np.polyder(h)(x) #h'(x)
 
-    derivative = (g_prime_x*h_x - g_x*h_prime_x)/ (h_x ** 2)
-
-    return float(derivative)
-    pass
+    derivative = (g_prime_x*h_x -g_x*h_prime_x)/(h_x**2) 
+    return  derivative
