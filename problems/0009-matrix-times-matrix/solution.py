@@ -14,6 +14,9 @@ def matrixmul(a: list[list[int | float]],
 
             for j in range(len(b)):
                 total += a[i][j] * b[j][k]
+
             row.append(total)
+
         result.append(row)
+
     return result
