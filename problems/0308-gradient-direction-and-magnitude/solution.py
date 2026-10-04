@@ -13,11 +13,11 @@ def gradient_direction_magnitude(gradient: list) -> dict:
 		- direction: Unit vector in direction of steepest ascent
 		- descent_direction: Unit vector in direction of steepest descent
 	"""
-	gradient_arr = np.array(gradient,dtype = float)
+	gradient_arr = np.array(gradient,dtype=float)
 
 	magnitude = np.linalg.norm(gradient_arr)
 
-	if magnitude == 0 :
+	if magnitude == 0:
 		direction = np.zeros_like(gradient_arr)
 		descent_direction = np.zeros_like(gradient_arr)
 	else:
@@ -25,8 +25,7 @@ def gradient_direction_magnitude(gradient: list) -> dict:
 		descent_direction = -direction
 	return {
 		"magnitude": float(magnitude),
-		"direction": direction.tolist(),
-		"descent_direction": descent_direction.tolist()
-
+        "direction": direction.tolist(),
+        "descent_direction": descent_direction.tolist()
 	}
-
+	
