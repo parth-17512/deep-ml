@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T15:26:05.035Z",
+  "generated_at": "2026-10-05T16:31:30.487Z",
   "items": {
     "problem:1058": {
       "kind": "problem",
@@ -363,6 +363,19 @@
       "path": "math/0019-probability-fundamentals",
       "first_solved_at": "2026-10-05T15:26:03.431Z",
       "last_pushed_at": "2026-10-05T15:26:03.431Z"
+    },
+    "problem:78": {
+      "kind": "problem",
+      "id": "78",
+      "title": "Descriptive Statistics Calculator",
+      "difficulty": "easy",
+      "category": "Statistics",
+      "url": "https://www.deep-ml.com/problems/78",
+      "path": "problems/0078-descriptive-statistics-calculator",
+      "first_solved_at": "2026-10-05T16:31:28.646Z",
+      "last_pushed_at": "2026-10-05T16:31:28.646Z",
+      "language": "python",
+      "lines": 39
     }
   }
 }
