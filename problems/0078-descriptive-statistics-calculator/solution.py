@@ -3,40 +3,34 @@ import numpy as np
 def descriptive_statistics(data: list | np.ndarray) -> dict:
     """
     Calculate various descriptive statistics metrics for a given dataset.
-    
-    Args:
-        data: List or numpy array of numerical values
-    
-    Returns:
-        Dictionary containing mean, median, mode, variance, standard deviation,
-        percentiles (25th, 50th, 75th), and interquartile range (IQR)
     """
-    # Your code here
-    dataset = np.array(data,dtype = float)
+    dataset = np.array(data)
 
     mean = np.mean(dataset)
     median = np.median(dataset)
 
-    values,counts = np.unique(dataset,return_counts = True)
+    values, counts = np.unique(dataset, return_counts=True)
     mode = values[np.argmax(counts)]
 
     var = np.var(dataset)
     std = np.std(dataset)
 
-    percentiles = np.percentile(dataset,[25,50,75])
-    iqr = percentiles[2] - percentiles[0]
+    percentiles = np.percentile(dataset, [25, 50, 75])
+
+    q1 = percentiles[0]
+    q2 = percentiles[1]
+    q3 = percentiles[2]
+
+    iqr = q3 - q1
 
     return {
-        "mean":float(mean),
-        "median":float(median), 
-        "mode":float(mode), 
-        "variance":float(var), 
-        "standard_deviation":float(std), 
-        "25th_percentile":float(percentiles[0]), 
-        "50th_percentile":float(percentiles[1]), 
-        "75th_percentile":float(percentiles[2]), 
-        "interquartile_range":float(iqr),
-
-
+        "mean": mean,
+        "median": median,
+        "mode": mode,
+        "variance": var,
+        "standard_deviation": std,
+        "25th_percentile": q1,
+        "50th_percentile": q2,
+        "75th_percentile": q3,
+        "interquartile_range": iqr
     }
-   
