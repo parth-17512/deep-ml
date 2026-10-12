@@ -1,7 +1,7 @@
 import numpy as np
+# You can import any sklearn module you need
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score
-
 def train(X_train, y_train, X_val, y_val):
     """
     Train a binary classifier.
@@ -18,17 +18,13 @@ def train(X_train, y_train, X_val, y_val):
     # TODO: train a model and return a predict function
     model = LogisticRegression(
         C = 1.0,
-        max_iter=2000,
-        random_state=42
+        max_iter = 2000,
+        random_state = 42
     )
     model.fit(X_train,y_train)
-
     val_pred = model.predict(X_val)
     val_accuracy = accuracy_score(y_val,val_pred)
-    print(f"Validation accuracy: {val_accuracy:.4f}")
 
-    def predict(X):
+    def predict(X): 
         return model.predict(X).astype(int)
     return predict
-    
-    pass

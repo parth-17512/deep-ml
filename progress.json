@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T13:15:02.774Z",
+  "generated_at": "2026-10-12T09:05:59.747Z",
   "items": {
     "problem:1058": {
       "kind": "problem",
@@ -593,9 +593,9 @@
       "url": "https://www.deep-ml.com/labs/23",
       "path": "labs/0023-train-a-binary-classifier",
       "first_solved_at": "2026-10-11T13:15:01.984Z",
-      "last_pushed_at": "2026-10-11T13:15:01.984Z",
+      "last_pushed_at": "2026-10-12T09:05:58.106Z",
       "language": "python",
-      "lines": 35
+      "lines": 31
     }
   }
 }
