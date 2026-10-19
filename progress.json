@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T14:21:54.908Z",
+  "generated_at": "2026-10-19T11:53:55.070Z",
   "items": {
     "problem:1058": {
       "kind": "problem",
@@ -809,9 +809,9 @@
       "url": "https://www.deep-ml.com/problems/168",
       "path": "problems/0168-calculate-conditional-probability-from-data",
       "first_solved_at": "2026-10-18T14:21:54.011Z",
-      "last_pushed_at": "2026-10-18T14:21:54.011Z",
+      "last_pushed_at": "2026-10-19T11:53:52.969Z",
       "language": "python",
-      "lines": 21
+      "lines": 22
     }
   }
 }

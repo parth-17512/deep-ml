@@ -8,13 +8,15 @@ def conditional_probability(data, x, y):
     Returns:
       float: conditional probability, rounded to 4 decimal places
     """
-    count_both , count_x = 0 ,0 
+    count_x =0
+    count_both =0
     
-    for x_value,y_value in data:
-      if x_value == x and y_value == y:
+    for x_values,y_values in data:
+      if x_values == x and y_values == y:
         count_both += 1
-      if x_value == x:
+      if x_values == x:
         count_x += 1
     if count_x == 0:
       return 0.0
-    return round(count_both/count_x,4)
+    return round(count_both/count_x, 4)
+    
