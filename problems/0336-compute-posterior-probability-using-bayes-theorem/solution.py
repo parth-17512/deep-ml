@@ -15,10 +15,10 @@ def bayes_theorem(priors: list[float], likelihoods: list[float]) -> list[float]:
 	for i in range(n):
 		result.append(priors[i]*likelihoods[i])
 		
-	ans =[]
+	#ans =[]
 	total = sum(result)
-	for i in range(n):
-		ans.append(result[i]/total)
-	return ans
+	for i in range(len(result)):
+		result[i] = result[i]/total
+	return result
 
 
