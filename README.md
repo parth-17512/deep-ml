@@ -2,7 +2,7 @@
 
 My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solution here was written by hand.
 
-**79** solved · 50 problems · 1 labs · 28 math
+**80** solved · 51 problems · 1 labs · 28 math
 
 ![Coverage](./coverage.svg)
 
@@ -53,6 +53,7 @@ My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solu
 | [Dummy Regressor Baseline](https://www.deep-ml.com/problems/848) | medium | 2026-09-26 | [solution](problems/0848-dummy-regressor-baseline) |
 | [Gaussian Elimination for Solving Linear Systems](https://www.deep-ml.com/problems/58) | medium | 2026-10-10 | [solution](problems/0058-gaussian-elimination-for-solving-linear-systems) |
 | [Jacobian Matrix Calculation](https://www.deep-ml.com/problems/202) | medium | 2026-10-14 | [solution](problems/0202-jacobian-matrix-calculation) |
+| [LU Decomposition of a Square Matrix](https://www.deep-ml.com/problems/333) | medium | 2026-10-23 | [solution](problems/0333-lu-decomposition-of-a-square-matrix) |
 | [Matrix Rank](https://www.deep-ml.com/problems/329) | medium | 2026-10-09 | [solution](problems/0329-matrix-rank) |
 | [Matrix times Matrix ](https://www.deep-ml.com/problems/9) | medium | 2026-10-03 | [solution](problems/0009-matrix-times-matrix) |
 | [Normal Distribution PDF Calculator](https://www.deep-ml.com/problems/80) | medium | 2026-10-20 | [solution](problems/0080-normal-distribution-pdf-calculator) |
