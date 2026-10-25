@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T18:34:29.728Z",
+  "generated_at": "2026-10-25T18:45:43.131Z",
   "items": {
     "problem:1058": {
       "kind": "problem",
@@ -1030,6 +1030,17 @@
       "path": "math/0026-maximum-likelihood-and-map",
       "first_solved_at": "2026-10-25T18:34:28.813Z",
       "last_pushed_at": "2026-10-25T18:34:28.813Z"
+    },
+    "math:38": {
+      "kind": "math",
+      "id": "38",
+      "title": "Log-Likelihood Gradients",
+      "difficulty": "medium",
+      "category": "Probability and Statistics for Machine Learning",
+      "url": "https://www.deep-ml.com/math-problems/38",
+      "path": "math/0038-log-likelihood-gradients",
+      "first_solved_at": "2026-10-25T18:45:42.242Z",
+      "last_pushed_at": "2026-10-25T18:45:42.242Z"
     }
   }
 }
