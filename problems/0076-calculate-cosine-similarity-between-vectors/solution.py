@@ -9,17 +9,11 @@ def cosine_similarity(v1, v2):
 	Returns:
 		The cosine_similarity of the two vectors.
 	"""
-	# Implement your code here
-	if v1.shape != v2.shape:
-		raise ValueError("Both input vectors must have the same shape.")
-	
-	dot_product = np.dot(v1, v2)
+	a= np.array(v1,dtype=float)
+	b= np.array(v2,dtype=float) 
 
-	magnitude_v1 = np.linalg.norm(v1)
-	magnitude_v2 = np.linalg.norm(v2)
-
-	if magnitude_v1 == 0 or magnitude_v2 == 0:
-		raise ValueError("Input vectors cannot be empty or have zero magnitude.")
-	
-	return float(dot_product/ (magnitude_v1 *magnitude_v2))
-	pass
+	if a.shape != b.shape or a.size ==0:
+		return -1 
+	if np.linalg.norm(a) == 0 or np.linalg.norm(b)==0:
+		return -1 
+	return np.dot(a, b)/(np.linalg.norm(a)*np.linalg.norm(b))
