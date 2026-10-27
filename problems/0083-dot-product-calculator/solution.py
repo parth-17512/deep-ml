@@ -9,7 +9,7 @@ def calculate_dot_product(vec1, vec2):
 	Returns:
 		The dot product of the two vectors.
 	"""
-	# Your code here
-	dot_product= np.dot(vec1, vec2)
-	return dot_product
-	pass
+	a=np.array(vec1)
+	b=np.array(vec2)
+	ans = np.dot(a, b)
+	return ans
