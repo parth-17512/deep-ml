@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-08T11:15:19.986Z",
+  "generated_at": "2026-11-09T10:44:20.587Z",
   "items": {
     "problem:1058": {
       "kind": "problem",
@@ -1319,6 +1319,17 @@
       "path": "math/0044-class-imbalance-and-proper-scoring",
       "first_solved_at": "2026-11-08T11:15:17.737Z",
       "last_pushed_at": "2026-11-08T11:15:17.737Z"
+    },
+    "math:50": {
+      "kind": "math",
+      "id": "50",
+      "title": "Positive Definite Matrices and Quadratic Forms",
+      "difficulty": "medium",
+      "category": "Linear Algebra",
+      "url": "https://www.deep-ml.com/math-problems/50",
+      "path": "math/0050-positive-definite-matrices-and-quadratic-forms",
+      "first_solved_at": "2026-11-09T10:44:19.156Z",
+      "last_pushed_at": "2026-11-09T10:44:19.156Z"
     }
   }
 }
