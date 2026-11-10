@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T10:57:05.047Z",
+  "generated_at": "2026-11-10T10:26:40.308Z",
   "items": {
     "problem:1058": {
       "kind": "problem",
@@ -1330,6 +1330,19 @@
       "path": "math/0050-positive-definite-matrices-and-quadratic-forms",
       "first_solved_at": "2026-11-09T10:44:19.156Z",
       "last_pushed_at": "2026-11-09T10:44:19.156Z"
+    },
+    "problem:81": {
+      "kind": "problem",
+      "id": "81",
+      "title": "Poisson Distribution Probability Calculator",
+      "difficulty": "easy",
+      "category": "Probability",
+      "url": "https://www.deep-ml.com/problems/81",
+      "path": "problems/0081-poisson-distribution-probability-calculator",
+      "first_solved_at": "2026-11-10T10:26:38.951Z",
+      "last_pushed_at": "2026-11-10T10:26:38.951Z",
+      "language": "python",
+      "lines": 12
     }
   }
 }
