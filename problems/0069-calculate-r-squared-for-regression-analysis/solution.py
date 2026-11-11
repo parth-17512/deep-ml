@@ -7,7 +7,10 @@ def r_squared(y_true, y_pred):
     y_pred = np.array(y_pred,dtype=float)
 
     ssr,sst=0,0
+    mean = np.mean(y_true)
     for actual , predicted in zip(y_true,y_pred):
         ssr+= (actual-predicted)**2
-        sst+= (actual-np.mean(y_true))**2
+        sst+= (actual-mean)**2
+    if sst == 0 :
+        return 0.0
     return round(1-(ssr/sst),3)
