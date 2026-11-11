@@ -8,9 +8,8 @@ def r_squared(y_true, y_pred):
 
     ssr,sst=0,0
     mean = np.mean(y_true)
-    for actual , predicted in zip(y_true,y_pred):
-        ssr+= (actual-predicted)**2
-        sst+= (actual-mean)**2
+    ssr = np.sum(np.square(y_true-y_pred))
+    sst = np.sum(np.square(y_true-mean))
     if sst == 0 :
         return 0.0
     return round(1-(ssr/sst),3)
