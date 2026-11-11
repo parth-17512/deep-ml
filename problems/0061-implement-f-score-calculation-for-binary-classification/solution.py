@@ -21,7 +21,10 @@ def f_score(y_true, y_pred, beta):
             fp+=1
         if actual == 1 and predicted == 0:
             fn+=1
-
+    if tp+fp ==0:
+        return 0.0
+    if tp+fn ==0:
+        return 0.0
     precision = tp/(tp+fp)
     recall = tp/(tp+fn)
 
@@ -29,5 +32,5 @@ def f_score(y_true, y_pred, beta):
         return 0.0
 
     fscore = (1+beta**2)*(precision*recall)/((beta**2*precision)+recall)
-    
+
     return round(fscore,3)
