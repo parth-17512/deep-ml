@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T12:13:43.076Z",
+  "generated_at": "2026-11-13T12:24:11.026Z",
   "items": {
     "problem:1058": {
       "kind": "problem",
@@ -1470,9 +1470,9 @@
       "url": "https://www.deep-ml.com/problems/72",
       "path": "problems/0072-calculate-jaccard-index-for-binary-classification",
       "first_solved_at": "2026-11-13T12:13:40.818Z",
-      "last_pushed_at": "2026-11-13T12:13:40.818Z",
+      "last_pushed_at": "2026-11-13T12:24:08.596Z",
       "language": "python",
-      "lines": 18
+      "lines": 13
     }
   }
 }
