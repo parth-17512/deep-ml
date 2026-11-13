@@ -13,9 +13,6 @@ def predict_logistic(X: np.ndarray, weights: np.ndarray, bias: float) -> np.ndar
         Binary predictions (0 or 1)
     """
     z = np.dot(X,weights)+bias
-
     probabilities = 1/(1+np.exp(-z))
-
-    predictions = (probabilities >=0.5).astype(int)
-
+    predictions = (probabilities>=0.5).astype(int)
     return predictions
