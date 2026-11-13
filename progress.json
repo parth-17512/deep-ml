@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T12:04:21.667Z",
+  "generated_at": "2026-11-13T12:13:43.076Z",
   "items": {
     "problem:1058": {
       "kind": "problem",
@@ -1458,6 +1458,19 @@
       "path": "problems/0104-binary-classification-with-logistic-regression",
       "first_solved_at": "2026-11-13T12:00:58.095Z",
       "last_pushed_at": "2026-11-13T12:04:19.355Z",
+      "language": "python",
+      "lines": 18
+    },
+    "problem:72": {
+      "kind": "problem",
+      "id": "72",
+      "title": "Calculate Jaccard Index for Binary Classification",
+      "difficulty": "easy",
+      "category": "Machine Learning",
+      "url": "https://www.deep-ml.com/problems/72",
+      "path": "problems/0072-calculate-jaccard-index-for-binary-classification",
+      "first_solved_at": "2026-11-13T12:13:40.818Z",
+      "last_pushed_at": "2026-11-13T12:13:40.818Z",
       "language": "python",
       "lines": 18
     }
