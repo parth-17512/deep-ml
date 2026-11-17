@@ -3,10 +3,7 @@ import numpy as np
 def diag(A: np.ndarray) -> np.ndarray:
     """Return the main diagonal of square matrix A."""
     # Your code here
-    #a = np.asarray(a,dtype=float)
-    ans=[]
-    for row in range(len(A)):
-        for col in range(len(A[0])):
-            if row == col:
-                ans.append(A[row][col])
-    return ans
+    A = np.asarray(A,dtype=float)
+    idx = np.arange(A.shape[0])
+    return A[idx,idx]
+   

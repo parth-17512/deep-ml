@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T12:37:50.729Z",
+  "generated_at": "2026-11-17T12:43:03.448Z",
   "items": {
     "problem:1058": {
       "kind": "problem",
@@ -1572,9 +1572,9 @@
       "url": "https://www.deep-ml.com/problems/1271",
       "path": "problems/1271-tensor-puzzle-extract-the-diagonal",
       "first_solved_at": "2026-11-17T12:37:45.828Z",
-      "last_pushed_at": "2026-11-17T12:37:45.828Z",
+      "last_pushed_at": "2026-11-17T12:42:58.148Z",
       "language": "python",
-      "lines": 13
+      "lines": 10
     }
   }
 }
