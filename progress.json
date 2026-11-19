@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T13:25:16.547Z",
+  "generated_at": "2026-11-19T13:55:38.078Z",
   "items": {
     "problem:1058": {
       "kind": "problem",
@@ -1625,6 +1625,19 @@
       "path": "problems/1274-tensor-puzzle-cumulative-sum-via-triangular-matmul",
       "first_solved_at": "2026-11-19T13:25:15.005Z",
       "last_pushed_at": "2026-11-19T13:25:15.005Z",
+      "language": "python",
+      "lines": 7
+    },
+    "problem:1279": {
+      "kind": "problem",
+      "id": "1279",
+      "title": "Tensor Puzzle: Compress — Keep True Positions",
+      "difficulty": "medium",
+      "category": "Linear Algebra",
+      "url": "https://www.deep-ml.com/problems/1279",
+      "path": "problems/1279-tensor-puzzle-compress-keep-true-positions",
+      "first_solved_at": "2026-11-19T13:55:37.042Z",
+      "last_pushed_at": "2026-11-19T13:55:37.042Z",
       "language": "python",
       "lines": 7
     }
