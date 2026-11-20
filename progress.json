@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T16:35:33.956Z",
+  "generated_at": "2026-11-20T17:02:20.248Z",
   "items": {
     "problem:1058": {
       "kind": "problem",
@@ -1679,6 +1679,19 @@
       "last_pushed_at": "2026-11-20T16:35:32.748Z",
       "language": "python",
       "lines": 10
+    },
+    "problem:1282": {
+      "kind": "problem",
+      "id": "1282",
+      "title": "Tensor Puzzle: Bincount by Scatter-Add",
+      "difficulty": "medium",
+      "category": "Linear Algebra",
+      "url": "https://www.deep-ml.com/problems/1282",
+      "path": "problems/1282-tensor-puzzle-bincount-by-scatter-add",
+      "first_solved_at": "2026-11-20T17:02:19.027Z",
+      "last_pushed_at": "2026-11-20T17:02:19.027Z",
+      "language": "python",
+      "lines": 8
     }
   }
 }

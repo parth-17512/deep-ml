@@ -2,7 +2,7 @@
 
 My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solution here was written by hand.
 
-**135** solved · 95 problems · 2 labs · 38 math
+**136** solved · 96 problems · 2 labs · 38 math
 
 ![Coverage](./coverage.svg)
 
@@ -102,6 +102,7 @@ My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solu
 | [Single Neuron with Backpropagation](https://www.deep-ml.com/problems/25) | medium | 2026-10-15 | [solution](problems/0025-single-neuron-with-backpropagation) |
 | [Solve System of Linear Equations Using Cramer's Rule](https://www.deep-ml.com/problems/119) | medium | 2026-11-03 | [solution](problems/0119-solve-system-of-linear-equations-using-cramer-s-rule) |
 | [StandardScaler Fit and Transform](https://www.deep-ml.com/problems/842) | medium | 2026-09-24 | [solution](problems/0842-standardscaler-fit-and-transform) |
+| [Tensor Puzzle: Bincount by Scatter-Add](https://www.deep-ml.com/problems/1282) | medium | 2026-11-20 | [solution](problems/1282-tensor-puzzle-bincount-by-scatter-add) |
 | [Tensor Puzzle: Compress — Keep True Positions](https://www.deep-ml.com/problems/1279) | medium | 2026-11-19 | [solution](problems/1279-tensor-puzzle-compress-keep-true-positions) |
 | [Tensor Puzzle: Cumulative Sum via Triangular Matmul](https://www.deep-ml.com/problems/1274) | medium | 2026-11-19 | [solution](problems/1274-tensor-puzzle-cumulative-sum-via-triangular-matmul) |
 | [Tensor Puzzle: Sequence Mask by Lengths](https://www.deep-ml.com/problems/1281) | medium | 2026-11-20 | [solution](problems/1281-tensor-puzzle-sequence-mask-by-lengths) |
