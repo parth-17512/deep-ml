@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T17:02:20.248Z",
+  "generated_at": "2026-11-21T13:44:14.651Z",
   "items": {
     "problem:1058": {
       "kind": "problem",
@@ -1692,6 +1692,19 @@
       "last_pushed_at": "2026-11-20T17:02:19.027Z",
       "language": "python",
       "lines": 8
+    },
+    "problem:1283": {
+      "kind": "problem",
+      "id": "1283",
+      "title": "Tensor Puzzle: Scatter-Add into Bins",
+      "difficulty": "medium",
+      "category": "Linear Algebra",
+      "url": "https://www.deep-ml.com/problems/1283",
+      "path": "problems/1283-tensor-puzzle-scatter-add-into-bins",
+      "first_solved_at": "2026-11-21T13:44:13.426Z",
+      "last_pushed_at": "2026-11-21T13:44:13.426Z",
+      "language": "python",
+      "lines": 12
     }
   }
 }
