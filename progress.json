@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-21T13:44:14.651Z",
+  "generated_at": "2026-11-22T13:21:46.070Z",
   "items": {
     "problem:1058": {
       "kind": "problem",
@@ -1705,6 +1705,19 @@
       "last_pushed_at": "2026-11-21T13:44:13.426Z",
       "language": "python",
       "lines": 12
+    },
+    "problem:1284": {
+      "kind": "problem",
+      "id": "1284",
+      "title": "Tensor Puzzle: Flatten a Matrix by Indexing",
+      "difficulty": "medium",
+      "category": "Linear Algebra",
+      "url": "https://www.deep-ml.com/problems/1284",
+      "path": "problems/1284-tensor-puzzle-flatten-a-matrix-by-indexing",
+      "first_solved_at": "2026-11-22T13:21:45.008Z",
+      "last_pushed_at": "2026-11-22T13:21:45.008Z",
+      "language": "python",
+      "lines": 8
     }
   }
 }

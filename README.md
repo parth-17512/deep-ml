@@ -2,7 +2,7 @@
 
 My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solution here was written by hand.
 
-**137** solved · 97 problems · 2 labs · 38 math
+**138** solved · 98 problems · 2 labs · 38 math
 
 ![Coverage](./coverage.svg)
 
@@ -105,6 +105,7 @@ My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solu
 | [Tensor Puzzle: Bincount by Scatter-Add](https://www.deep-ml.com/problems/1282) | medium | 2026-11-20 | [solution](problems/1282-tensor-puzzle-bincount-by-scatter-add) |
 | [Tensor Puzzle: Compress — Keep True Positions](https://www.deep-ml.com/problems/1279) | medium | 2026-11-19 | [solution](problems/1279-tensor-puzzle-compress-keep-true-positions) |
 | [Tensor Puzzle: Cumulative Sum via Triangular Matmul](https://www.deep-ml.com/problems/1274) | medium | 2026-11-19 | [solution](problems/1274-tensor-puzzle-cumulative-sum-via-triangular-matmul) |
+| [Tensor Puzzle: Flatten a Matrix by Indexing](https://www.deep-ml.com/problems/1284) | medium | 2026-11-22 | [solution](problems/1284-tensor-puzzle-flatten-a-matrix-by-indexing) |
 | [Tensor Puzzle: Scatter-Add into Bins](https://www.deep-ml.com/problems/1283) | medium | 2026-11-21 | [solution](problems/1283-tensor-puzzle-scatter-add-into-bins) |
 | [Tensor Puzzle: Sequence Mask by Lengths](https://www.deep-ml.com/problems/1281) | medium | 2026-11-20 | [solution](problems/1281-tensor-puzzle-sequence-mask-by-lengths) |
 | [Implement the Conjugate Gradient Method for Solving Linear Systems](https://www.deep-ml.com/problems/63) | hard | 2026-11-05 | [solution](problems/0063-implement-the-conjugate-gradient-method-for-solving-linear-systems) |
