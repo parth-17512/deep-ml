@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T13:21:46.070Z",
+  "generated_at": "2026-11-23T15:12:38.872Z",
   "items": {
     "problem:1058": {
       "kind": "problem",
@@ -1718,6 +1718,19 @@
       "last_pushed_at": "2026-11-22T13:21:45.008Z",
       "language": "python",
       "lines": 8
+    },
+    "problem:2195": {
+      "kind": "problem",
+      "id": "2195",
+      "title": "Distance to the Previous and Next True, Vectorized",
+      "difficulty": "medium",
+      "category": "Machine Learning",
+      "url": "https://www.deep-ml.com/problems/2195",
+      "path": "problems/2195-distance-to-the-previous-and-next-true-vectorized",
+      "first_solved_at": "2026-11-23T15:12:37.815Z",
+      "last_pushed_at": "2026-11-23T15:12:37.815Z",
+      "language": "python",
+      "lines": 28
     }
   }
 }
