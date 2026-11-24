@@ -2,7 +2,7 @@
 
 My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solution here was written by hand.
 
-**139** solved · 99 problems · 2 labs · 38 math
+**140** solved · 100 problems · 2 labs · 38 math
 
 ![Coverage](./coverage.svg)
 
@@ -109,6 +109,7 @@ My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solu
 | [Tensor Puzzle: Flatten a Matrix by Indexing](https://www.deep-ml.com/problems/1284) | medium | 2026-11-22 | [solution](problems/1284-tensor-puzzle-flatten-a-matrix-by-indexing) |
 | [Tensor Puzzle: Scatter-Add into Bins](https://www.deep-ml.com/problems/1283) | medium | 2026-11-21 | [solution](problems/1283-tensor-puzzle-scatter-add-into-bins) |
 | [Tensor Puzzle: Sequence Mask by Lengths](https://www.deep-ml.com/problems/1281) | medium | 2026-11-20 | [solution](problems/1281-tensor-puzzle-sequence-mask-by-lengths) |
+| [Truncated SVD Rank-r Approximation of Weight Updates](https://www.deep-ml.com/problems/872) | medium | 2026-11-24 | [solution](problems/0872-truncated-svd-rank-r-approximation-of-weight-updates) |
 | [Implement the Conjugate Gradient Method for Solving Linear Systems](https://www.deep-ml.com/problems/63) | hard | 2026-11-05 | [solution](problems/0063-implement-the-conjugate-gradient-method-for-solving-linear-systems) |
 | [QR Decomposition](https://www.deep-ml.com/problems/201) | hard | 2026-10-22 | [solution](problems/0201-qr-decomposition) |
 
