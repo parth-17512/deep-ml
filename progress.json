@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T14:31:46.170Z",
+  "generated_at": "2026-11-28T17:23:32.050Z",
   "items": {
     "problem:1058": {
       "kind": "problem",
@@ -1766,6 +1766,19 @@
       "path": "math/0040-logistic-regression-as-maximum-likelihood",
       "first_solved_at": "2026-11-27T14:31:43.541Z",
       "last_pushed_at": "2026-11-27T14:31:43.541Z"
+    },
+    "problem:51": {
+      "kind": "problem",
+      "id": "51",
+      "title": "Optimal String Alignment Distance",
+      "difficulty": "medium",
+      "category": "NLP",
+      "url": "https://www.deep-ml.com/problems/51",
+      "path": "problems/0051-optimal-string-alignment-distance",
+      "first_solved_at": "2026-11-28T17:23:31.222Z",
+      "last_pushed_at": "2026-11-28T17:23:31.222Z",
+      "language": "python",
+      "lines": 29
     }
   }
 }
